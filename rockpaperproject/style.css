@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(114, 177, 19);
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#user-score, #comp-score {
+    font-size: 48px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choice {
+    
+    border: 5px grey solid;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.choice img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#result-message {
+    font-size: 24px;
+}
+
+#rules-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 10;
+    top: 50%;
+    left: 90%;
+    width: 200px;
+    background-color: darkgreen;
+}
+.popup-content {
+    text-align: center;
+}
+
+#close-popup {
+    margin-top: 20px;
+}
+
+.popup.show {
+    display: block;
+}
+.score-card{
+
+
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.text-start{
+    text-align: start;
+    color: white;
+}
+.number-card{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
